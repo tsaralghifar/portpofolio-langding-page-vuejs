@@ -1,0 +1,25 @@
+@import "~tailwindcss/base.css";
+@import "~tailwindcss/components.css";
+@import "~tailwindcss/utilities.css";
+
+.theme-light {
+    --bg-background-primary: white;
+    --bg-background-secondary: #2db7ee;
+
+    --text-kata-primary: #314E52;
+    --text-kata-secondary: #066858;
+    --text-kata-ternary: #314e52d8;
+}
+
+.theme-dark {
+    --bg-background-primary: #212B37;
+    --bg-background-secondary: #4C5968;
+
+    --text-kata-primary: #ffffff;
+    --text-kata-secondary: #FFEFA1;
+    --text-kata-ternary: #ffffffcc;
+}
+
+.content-wrapper {
+    transition: background-color .25s;
+}
