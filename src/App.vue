@@ -4,7 +4,7 @@
             <div class="w-20 h-10 absolute" style="left: 1198px; top: 59px;">
                 <a href="#" @click.prevent="toggleTheme" class="flex items-center justify-start flex-1 h-full py-2 pl-2 pr-12 bg-background-secondary rounded-full focus:outline-none">
                     <img v-if="theme === 'theme-light'" src="img/sun.png" alt="sun">
-                    <img v-else src="img/moon.png" alt="sun">
+                    <img v-else src="img/moon.png" alt="moon">
                 </a>
             </div>
             <p class="absolute text-6xl font-medium text-kata-primary" style="left: 150px; top: 154px;">Hello! Saya <br/>Tsar Alghifari,<br/>Seorang Web <br/>Programmer</p>
