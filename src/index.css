@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
 @import "~tailwindcss/base.css";
 @import "~tailwindcss/components.css";
 @import "~tailwindcss/utilities.css";
@@ -8,7 +10,7 @@
 
     --text-kata-primary: #314E52;
     --text-kata-secondary: #066858;
-    --text-kata-ternary: #314e52d8;
+    --text-kata-ternary: #314e52ce;
 }
 
 .theme-dark {
